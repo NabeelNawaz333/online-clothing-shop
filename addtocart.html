@@ -1,0 +1,170 @@
+<html>
+<head>
+         <title>User's Details</title>
+        <link rel="stylesheet" type="text/css"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+     <style>
+                body{
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    width: 500px;
+    height: 450px;
+    margin: 60px auto 0;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 35px;
+    border: 3px solid #fff;
+    border-radius: 70px 0 70px 0;
+
+}
+.box2{
+    width: 500px;
+    height: 930px;
+    margin: 60px auto 0;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 35px;
+    border: 3px solid #fff;
+    border-radius: 70px 0 70px 0;
+
+}
+.box h2{
+    margin-bottom: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.box2 h2{
+    margin-bottom: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 15px 0 15px 0;
+    border: 2px solid #fff;
+    margin-bottom: 15px;
+    background: transparent;
+    color: #fff;
+}
+.box p{
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.box2 p{
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn{
+    display: block;
+    height: 60px;
+    line-height: 40px;
+    text-align: center;
+    background: deeppink;
+    border-radius: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+.btn:hover{
+    background: rgb(177, 16, 102);
+}
+.pass{
+    text-decoration: none;
+    display: block;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
+.pass:hover{
+    color: rgba(202, 196, 196, 0.948);
+}
+.mem p{
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.joi{
+    text-decoration:none;
+    color:deeppink;
+}
+.joi:hover {
+             color: rgb(177, 16, 102);
+}
+         .alert {
+             padding: 20px;
+             background-color: #f44336; /* Red */
+             color: white;
+             margin-bottom: 15px;
+         }
+
+         /* The close button */
+         .closebtn {
+             margin-left: 15px;
+             color: white;
+             font-weight: bold;
+             float: right;
+             font-size: 22px;
+             line-height: 20px;
+             cursor: pointer;
+             transition: 0.3s;
+         }
+
+             /* When moving the mouse over the close button */
+             .closebtn:hover {
+                 color: black;
+             }
+             .mainh p{
+                 color:grey;
+                 text-align:center;
+             }
+    </style>
+   
+</head>
+<body>
+<form action="addtocart.php" method="post">
+                      
+     <div class="box2">
+            <h2>Your Details</h2>
+         <div class="mainh"> <p>Please Fill the Following details to place your order</p></div>
+        
+            <p>Name</p>
+            <input type="text" name="Fname" value=""  placeholder="Enter Your Full Name" class="form-control" required />
+            <p>E-mail</p>
+            <input type="text" name="email" value="" placeholder="Enter Your Email" class="form-control" required/>
+            <p>Contact Number</p>
+            <input type="text" name="contactnumber" value="" placeholder="Enter Your Contact Number" class="form-control" required/>
+            <p>City</p>
+            <input type="text" name="city" value="" placeholder="Enter Your City Name"class="form-control"  required/>
+            <p>Address</p>
+            <input type="text" name="Address" value="" placeholder="Enter Your Address" class="form-control" required/>
+            <input type="submit" name="submit" value="Submit" onclick="popup()" class="btn"/>
+                 </form>
+        
+       
+          
+  </div>
+   
+    
+</body>
+</html>
+
+
+
+
